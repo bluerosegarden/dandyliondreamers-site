@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: bluerosegarden/dandyliondreamers-site
+  branch: main
+
+media_folder: "site-src/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads"
+
+collections:
+- name: "portfolio" # Used in routes, e.g., /admin/collections/blog
+  label: "Portfolio" # Used in the UI
+  folder: "site-src/src/lib/cms/portfolio" # The path to the folder where the documents are stored
+  format: json
+  create: true # Allow users to create new documents in this collection
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Image", name: "thumbnail", widget: "image", allow_multiple: true, choose_url: true}
+    - {label: "Description", name: "desc", widget: "string"}
+    - {label: "Link", name: "link", widget: "string"}
+- name: "pages"
+  files:
+    - label: "Home Page"
+      name: "about"
+      file: "site-src/lib/cms/pages/home.yml"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Intro, name: intro, widget: markdown}
+        - label: Team
+          name: team
+          widget: list
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Position, name: position, widget: string}
+            - {label: Photo, name: photo, widget: image}
