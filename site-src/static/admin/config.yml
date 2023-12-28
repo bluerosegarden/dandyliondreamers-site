@@ -12,7 +12,7 @@ collections:
   files:
     - label: "Home Page"
       name: "home"
-      file: "site-src/lib/cms/pages/home.json"
+      file: "site-src/src/lib/cms/pages/home.json"
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
@@ -21,7 +21,7 @@ collections:
         - {label: Body, name: body, widget: markdown}
     - label: "Portfolio"
       name: "portfolio"
-      file: "site-src/lib/cms/pages/portfolio.json"
+      file: "site-src/src/lib/cms/pages/portfolio.json"
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
@@ -40,7 +40,7 @@ collections:
             - {label: "Image", name: "img", widget: "image", choose_url: true}
     - label: "Rayqueza"
       name: "rayqueza"
-      file: "site-src/lib/cms/pages/rayqueza.json"
+      file: "site-src/src/lib/cms/pages/rayqueza.json"
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
