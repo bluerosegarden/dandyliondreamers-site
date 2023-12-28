@@ -28,10 +28,12 @@
     <div class="flex flex-row flex-wrap w-full justify-center">
         {#each images as image}
             <div class="relative group">
-                <span
-                    class="ease-in duration-300 opacity-0 group-hover:opacity-100 absolute top-0 right-0 bg-ritual-faded-accent p-1"
-                    >{image.title}</span
-                >
+                {#if image.title}
+                    <span
+                        class="ease-in duration-300 opacity-0 group-hover:opacity-100 absolute top-0 right-0 bg-ritual-faded-accent p-1"
+                        >{image.title}</span
+                    >
+                {/if}
                 {#if image.link}
                     <Lightbox
                         description="{image.desc} <a href={image.link} class='text-ritual-secondary'>(link)</a>"
