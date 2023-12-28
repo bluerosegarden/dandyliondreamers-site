@@ -5,8 +5,8 @@
 
 <h1 class="text-6xl">{home_data.title}</h1>
 <div>
-    <img src={home_data.mainImg.img} />
+    <img class="h-96" src={home_data.mainImg} />
 </div>
-<div class="text-lg m-4">
+<div class="text-lg mx-24">
     {home_data.body}
 </div>

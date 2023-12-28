@@ -14,12 +14,13 @@ header input{
 
 p, footer, header{
     color: var(--hex-text);
-    font-family: var(--f6);
+    font-family: var(--f);
     font-size: 1.4em;
     line-height: 1.25em;
     font-weight: 600;
 
 }
+
 
 article p{
 margin-bottom: 2rem;
@@ -35,7 +36,7 @@ main{
     margin: 0 1em;
 }
 h1,h2,h3,h4{
-    font-family: var(--f7);
+    font-family: var(--h);
     color: var(--hex-text);
 }
 h2 {

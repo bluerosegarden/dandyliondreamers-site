@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Concert+One&family=Cutive+Mono&family=Dosis:wght@500&family=Fredoka&family=Nunito&family=Supermercado+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@500&display=swap');
 
 :root{
     --hex-text: #020302;
@@ -20,17 +21,7 @@
     --ritual-accent: #f57a91;
 
 
-    --f1: 'Caveat', cursive;
+    --f: 'Poppins';
 
-    --f2: 'Concert One', cursive;
-
-    --f3: 'Cutive Mono', monospace;
-
-    --f4: 'Dosis', sans-serif;
-
-    --f5: 'Fredoka', sans-serif;
-
-    --f6: 'Nunito', sans-serif;
-
-    --f7: 'Supermercado One', cursive;
+    --h: 'Coiny', cursive;
 }
