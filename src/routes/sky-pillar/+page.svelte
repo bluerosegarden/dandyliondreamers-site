@@ -1,5 +1,5 @@
 <script>
-    import PortfolioSet from "$lib/components/PortfolioSet.svelte";
+    import PortfolioSet from "$lib/components/Sky-Pillar-Card.svelte";
 
     export let data;
     const sets = data.raySets;

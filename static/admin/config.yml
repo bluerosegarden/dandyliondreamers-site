@@ -59,6 +59,7 @@ collections:
             - {label: "Image Title", name: "title", widget: "string", required: false}
             - {label: "Image Source (link)", name: "link", widget: "string", required: false}
             - {label: "Image Description", name: "desc", widget: "string", required: false}
+              
     - label: "Rayqueza"
       name: "rayqueza"
       file: "src/lib/cms/pages/rayqueza.json"
@@ -70,17 +71,11 @@ collections:
           name: raySets
           widget: list
           fields:
-          - {label: "Set Title", name: "title", widget: "string", required: false}
-          - {label: "Set Description", name: "desc", widget: "string", required: false}
+          - {label: "Rayqueza Title", name: "title", widget: "string", required: false}
+          - {label: "Rayqueza Description", name: "desc", widget: "markdown", required: false}
           - {label: "Link", name: "link", widget: "string", required: false}
-          - label: Images 
-            name: images 
-            widget: list 
-            fields:
-            - {label: "Image", name: "img", widget: "image", choose_url: true}
-            - {label: "Image Title", name: "title", widget: "string", required: false}
-            - {label: "Image Source (link)", name: "link", widget: "string", required: false}
-            - {label: "Image Description", name: "desc", widget: "string", required: false}
+          - {label: "Image", name: "img", widget: "image", choose_url: true}
+              
 - name: "settings"
   label: "Settings"
   files:
