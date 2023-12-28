@@ -4,7 +4,7 @@
   "portSets": [
     {
       "title": "Zezo",
-      "desc": "This is Zezo!",
+      "desc": "This is Zezo! Lorem Ipsum akakakakak",
       "link": "https://github.com/bluerosegarden/dandyliondreamers-site",
       "images": [
         {
@@ -12,6 +12,12 @@
         },
         {
           "img": "/images/uploads/67357992_eolvkgavtse1nh7.png"
+        },
+        {
+          "img": "/images/uploads/40440541_aecl8mnxjpv80th.png"
+        },
+        {
+          "img": "/images/uploads/34304948_plf4a8sorwph3tl.png"
         }
       ]
     }
