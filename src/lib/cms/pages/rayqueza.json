@@ -3,7 +3,7 @@
   "body": "This is a page for that snakeyboy called rayqueza",
   "raySets": [
     {
-      "title": "First Set",
+      "title": "Tiny Man",
       "desc": "Look at this boyyy",
       "link": "https://github.com/bluerosegarden/dandyliondreamers-site",
       "images": [
@@ -25,7 +25,14 @@
           "link": "",
           "desc": ""
         }
-      ]
+      ],
+      "img": "/images/uploads/SmartSelect_20231212_023411_Mercari.jpg"
+    },
+    {
+      "title": "Card",
+      "desc": "wowwie wowwie\n- yes\n- yes\n- price: yes",
+      "link": "",
+      "img": "/images/uploads/20231218_170957.jpg"
     }
   ]
 }
