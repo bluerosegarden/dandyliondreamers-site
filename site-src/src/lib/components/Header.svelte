@@ -5,10 +5,11 @@
         <ul class="flex-row align-center justify-around">
             <li>
                 <a
-                    class="rounded-full bg-ritual-primary p-2 hover:bg-ritual-accent"
+                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                     href="/about/"
                 >
-                    <span class="hidden md:inline text-2xl text-center"
+                    <span
+                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >about</span
                     >
                 </a>
@@ -16,36 +17,42 @@
             <li class="">
                 <a
                     href="/portfolio/"
-                    class="rounded-full bg-ritual-primary p-2 hover:bg-ritual-accent"
+                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                 >
-                    <span class="hidden md:inline text-2xl text-center"
+                    <span
+                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >portfolio</span
                     >
                 </a>
             </li>
             <li>
                 <a
-                    class="rounded-full bg-ritual-primary p-2 hover:bg-ritual-accent"
+                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                     href="/"
-                    >home
+                    ><span
+                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
+                        >home</span
+                    >
                 </a>
             </li>
             <li>
                 <a
                     href="/commissions/"
-                    class="rounded-full bg-ritual-primary p-2 hover:bg-ritual-accent"
+                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                 >
-                    <span class="hidden md:inline text-2xl text-center"
+                    <span
+                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >commissions</span
                     >
                 </a>
             </li>
             <li>
                 <a
-                    class="rounded-full bg-ritual-primary p-2 hover:bg-ritual-accent"
+                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                     href="/ski-pillar/"
                 >
-                    <span class="hidden md:inline text-2xl text-center"
+                    <span
+                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >sky pillar</span
                     >
                 </a>
