@@ -3,6 +3,7 @@
     import "$lib/styles/web.css";
     import "$lib/app.css";
     import { fade } from "svelte/transition";
+    import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <Header />
@@ -13,3 +14,4 @@
 >
     <slot />
 </main>
+<Footer />

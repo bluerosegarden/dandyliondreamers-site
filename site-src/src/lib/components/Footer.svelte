@@ -2,7 +2,7 @@
     <a class="align-middle group" href="mailto:mail@wychwit.ch"
         >mail@wychwit.ch
         <svg
-            class="inline align-middle group-hover:animate-bounce transition-all ease-in-out stroke-hex-primary"
+            class="inline align-middle group-hover:animate-bounce transition-all ease-in-out stroke-ritual-primary"
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
