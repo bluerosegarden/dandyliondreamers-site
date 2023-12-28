@@ -57,3 +57,18 @@ collections:
             widget: list 
             fields:
             - {label: "Image", name: "img", widget: "image", choose_url: true}
+- name: "settings"
+  label: "Settings"
+  files:
+    - label: "Main Settings"
+      name: "mainSettings"
+      file: "site-src/src/lib/cms/pages/main-settings.json"
+      format: json
+      fields:
+        - {label: Email, name: email, widget: string}
+        - label: Links
+          name: links
+          widget: list
+          fields:
+            - {label: Link Name, name: name, widget: string}
+            - {label: Link, name: link, widget: string}

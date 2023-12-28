@@ -1,6 +1,7 @@
 <script>
     export let data;
-    const ports = data.portArr;
+    const sets = data.data.portSets;
 </script>
 
-<img src={ports[0].thumbnail} />
+<h1>PAAAA</h1>
+<img src={sets[0].images[0].img} />
