@@ -29,11 +29,11 @@
             <div class="relative group">
                 <span
                     class="ease-in duration-300 opacity-0 group-hover:opacity-100 absolute top-0 right-0 bg-ritual-faded-accent p-1"
-                    >{set.title}</span
+                    >{image.title}</span
                 >
                 {#if image.link}
                     <Lightbox
-                        description="{set.desc} <a href={image.link} class='text-ritual-secondary'>(link)</a>"
+                        description="{image.desc} <a href={image.link} class='text-ritual-secondary'>(link)</a>"
                     >
                         <img
                             class="max-h-44 w-auto bg-ritual-faded p-2"
@@ -41,7 +41,7 @@
                         />
                     </Lightbox>
                 {:else}
-                    <Lightbox description={set.desc}>
+                    <Lightbox description={image.desc}>
                         <img
                             class="max-h-64 w-auto bg-ritual-faded p-2"
                             src={image.img}
@@ -50,7 +50,7 @@
                 {/if}
                 <span
                     class="ease-in duration-300 opacity-0 group-hover:opacity-100 absolute bottom-0 left-0 rounded bg-ritual-faded-accent"
-                    >{set.desc}</span
+                    >{image.desc}</span
                 >
             </div>
         {/each}

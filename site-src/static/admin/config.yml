@@ -39,6 +39,9 @@ collections:
             widget: list 
             fields:
             - {label: "Image", name: "img", widget: "image", choose_url: true}
+            - {label: "Image Title", name: "title", widget: "string"}
+            - {label: "Image Source", name: "link", widget: "string"}
+            - {label: "Image Description", name: "desc", widget: "string"}
     - label: "Rayqueza"
       name: "rayqueza"
       file: "site-src/src/lib/cms/pages/rayqueza.json"
