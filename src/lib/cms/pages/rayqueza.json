@@ -1,0 +1,31 @@
+{
+  "title": "Sky Pillar",
+  "body": "This is a page for that snakeyboy called rayqueza",
+  "raySets": [
+    {
+      "title": "First Set",
+      "desc": "Look at this boyyy",
+      "link": "https://github.com/bluerosegarden/dandyliondreamers-site",
+      "images": [
+        {
+          "img": "/images/uploads/20231214_111837.jpg",
+          "title": "good god",
+          "link": "https://github.com/bluerosegarden/dandyliondreamers-site",
+          "desc": "lovely man"
+        },
+        {
+          "img": "/images/uploads/SmartSelect_20231212_023411_Mercari.jpg",
+          "title": "",
+          "link": "",
+          "desc": ""
+        },
+        {
+          "img": "/images/uploads/20231218_170957.jpg",
+          "title": "",
+          "link": "",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}
