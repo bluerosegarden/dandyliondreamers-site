@@ -20,6 +20,19 @@
           "img": "/images/uploads/34304948_plf4a8sorwph3tl.png"
         }
       ]
+    },
+    {
+      "title": "Second Gallery",
+      "desc": "This is another description",
+      "link": "https://www.w3schools.com/css/css3_colors.asp",
+      "images": [
+        {
+          "img": "/images/uploads/67357992_eolvkgavtse1nh7.png"
+        },
+        {
+          "img": "/images/uploads/34304948_plf4a8sorwph3tl.png"
+        }
+      ]
     }
   ]
 }
