@@ -24,6 +24,7 @@ export default {
         'primary': '#ffb188',
         'secondary': '#fac165',
         'accent': '#c398d0',
+        'faded': 'rgba(0,0,0,0.1)'
       },
      }
     },

@@ -1,4 +1,5 @@
 <script>
+    import { Lightbox } from "svelte-lightbox";
     /**
      * @type {{ images: any; title: any; desc: any; }}
      */
@@ -13,9 +14,14 @@
         </h2>
         <p>{set.desc}</p>
     </div>
-    <div class="w-1/2 flex flex-col flex-wrap h-100">
+    <div class="w-1/2 flex flex-row flex-wrap max-h-96">
         {#each images as image}
-            <img class="w-50" src={image.img} />
+            <Lightbox>
+                <img
+                    class="max-h-44 w-auto bg-ritual-faded p-2"
+                    src={image.img}
+                />
+            </Lightbox>
         {/each}
     </div>
 </div>
