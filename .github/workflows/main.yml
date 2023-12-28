@@ -11,9 +11,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-defaults:
-  run:
-    working-directory: site-src
 
 
 # Allow one concurrent deployment
@@ -23,6 +20,9 @@ concurrency:
 
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: site-src
     runs-on: ubuntu-latest
 
     steps:
