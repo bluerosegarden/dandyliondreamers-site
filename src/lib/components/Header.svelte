@@ -32,7 +32,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href={base}
+                    href="{base}/"
                     ><span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >home</span
