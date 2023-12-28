@@ -17,6 +17,7 @@ collections:
       fields:
         - {label: Page Title, name: title, widget: string}
         - {label: Embed Blurb, name: blurb, widget: string}
+        - {label: "Main Image", name: "mainImg", widget: "image", choose_url: true}
         - {label: "Embed Image", name: "embedImg", widget: "image", choose_url: true}
         - {label: Body, name: body, widget: markdown}
     - label: "Portfolio"
