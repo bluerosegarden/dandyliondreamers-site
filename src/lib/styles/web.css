@@ -15,9 +15,6 @@ header input{
 p, footer, header{
     color: var(--hex-text);
     font-family: var(--f);
-    font-size: 1.4em;
-    line-height: 1.25em;
-    font-weight: 600;
 
 }
 

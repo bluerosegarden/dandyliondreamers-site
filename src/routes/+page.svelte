@@ -7,6 +7,6 @@
 <div>
     <img class="h-96" src="{base}{data.mainImg}" />
 </div>
-<div class="text-lg mx-24">
+<p class="bg-ritual-primary/25 p-4 rounded-lg">
     {data.body}
-</div>
+</p>

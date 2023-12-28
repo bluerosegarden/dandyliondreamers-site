@@ -1,7 +1,8 @@
 
 
 // @ts-ignore
-import data from "$lib/cms/pages/portfolio.json" assert { type: "json" };
+import data from "$lib/cms/pages/about.json" assert { type: "json" };
+import settings from "$lib/cms/pages/main-settings.json" assert { type: "json" };
 export function load() {
-    return data;
+    return { data, settings };
 }
