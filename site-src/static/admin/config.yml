@@ -57,6 +57,7 @@ collections:
             widget: list 
             fields:
             - {label: "Image", name: "img", widget: "image", choose_url: true}
+            - {label: "Link", name: "link", widget: "string"}
 - name: "settings"
   label: "Settings"
   files:
