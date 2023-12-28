@@ -1,4 +1,5 @@
 <script>
+    import { base } from "$app/paths";
     import { Lightbox } from "svelte-lightbox";
     /**
      * @type {{ images: any; title: any; desc: any; link: any;}}
@@ -37,14 +38,14 @@
                     >
                         <img
                             class="max-h-44 w-auto bg-ritual-faded p-2"
-                            src={image.img}
+                            src="{base}{image.img}"
                         />
                     </Lightbox>
                 {:else}
                     <Lightbox description={image.desc}>
                         <img
                             class="max-h-64 w-auto bg-ritual-faded p-2"
-                            src={image.img}
+                            src="{base}{image.img}"
                         />
                     </Lightbox>
                 {/if}

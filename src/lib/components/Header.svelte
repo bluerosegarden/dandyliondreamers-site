@@ -41,7 +41,7 @@
             </li>
             <li>
                 <a
-                    href="/commissions/"
+                    href="{base}/commissions/"
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                 >
                     <span
