@@ -1,7 +1,3 @@
-<script lang="ts">
-    import { base } from "$app/paths";
-</script>
-
 <header
     class="z-10 mt-8 bg-rites-background fixed md:static h-24 w-full md:bg-transparent border-b-8 md:border-b-transparent border-b-hex-primary justify-between"
 >
@@ -10,7 +6,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="{base}/about/"
+                    href="/about/"
                 >
                     <span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
@@ -20,7 +16,7 @@
             </li>
             <li class="">
                 <a
-                    href="{base}/portfolio/"
+                    href="/portfolio/"
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                 >
                     <span
@@ -32,7 +28,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href={base}
+                    href="/"
                     ><span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >home</span
@@ -53,7 +49,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="{base}/sky-pillar/"
+                    href="/sky-pillar/"
                 >
                     <span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"

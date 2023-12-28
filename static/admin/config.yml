@@ -3,7 +3,7 @@ backend:
   repo: bluerosegarden/dandyliondreamers-site
   branch: main
 
-media_folder: "site-src/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads"
 
 collections:
@@ -12,7 +12,7 @@ collections:
   files:
     - label: "Home Page"
       name: "home"
-      file: "site-src/src/lib/cms/pages/home.json"
+      file: "src/lib/cms/pages/home.json"
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
@@ -22,7 +22,7 @@ collections:
         - {label: Body, name: body, widget: markdown}
     - label: "Portfolio"
       name: "portfolio"
-      file: "site-src/src/lib/cms/pages/portfolio.json"
+      file: "src/lib/cms/pages/portfolio.json"
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
@@ -44,7 +44,7 @@ collections:
             - {label: "Image Description", name: "desc", widget: "string"}
     - label: "Rayqueza"
       name: "rayqueza"
-      file: "site-src/src/lib/cms/pages/rayqueza.json"
+      file: "src/lib/cms/pages/rayqueza.json"
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
@@ -67,7 +67,7 @@ collections:
   files:
     - label: "Main Settings"
       name: "mainSettings"
-      file: "site-src/src/lib/cms/pages/main-settings.json"
+      file: "src/lib/cms/pages/main-settings.json"
       format: json
       fields:
         - {label: Email, name: email, widget: string}
