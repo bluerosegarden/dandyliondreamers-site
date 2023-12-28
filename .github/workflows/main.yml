@@ -31,9 +31,7 @@ jobs:
           node-version: 16
           cache: 'npm'
       - run: npm ci
-        working-directory: site-src
       - run: npm run build
-        working-directory: site-src
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
