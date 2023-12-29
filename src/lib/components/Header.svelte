@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { base } from "$app/paths";
 </script>
 
 <header class=" w-full z-10 fixed sm:static pb-6">
@@ -18,27 +17,27 @@
                         <div class="flex space-x-4 justify-center">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <a
-                                href="{base}/"
+                                href="/"
                                 class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium text-xl"
                                 >Home</a
                             >
                             <a
-                                href="{base}/about"
+                                href="/about"
                                 class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium text-xl"
                                 >About</a
                             >
                             <a
-                                href="{base}/portfolio"
+                                href="/portfolio"
                                 class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium text-xl"
                                 >Portfolio</a
                             >
                             <a
-                                href="{base}/sky-pillar"
+                                href="/sky-pillar"
                                 class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium text-xl"
                                 >Sky Pillar</a
                             >
                             <a
-                                href="{base}/commissions"
+                                href="/commissions"
                                 class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium text-xl"
                                 >Commissions</a
                             >
@@ -102,27 +101,27 @@
             <div class="space-y-1 px-2 pb-3 pt-2">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
-                    href="{base}/"
+                    href="/"
                     class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium block"
                     >Home</a
                 >
                 <a
-                    href="{base}/about"
+                    href="/about"
                     class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium block"
                     >About</a
                 >
                 <a
-                    href="{base}/portfolio"
+                    href="/portfolio"
                     class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium block"
                     >Portfolio</a
                 >
                 <a
-                    href="{base}/sky-pillar"
+                    href="/sky-pillar"
                     class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium block"
                     >Sky Pillar</a
                 >
                 <a
-                    href="{base}/commissions"
+                    href="/commissions"
                     class="hover:bg-ritual-accent hover:text-white rounded-md px-3 py-2 text-sm font-medium block"
                     >Commissions</a
                 >
@@ -135,7 +134,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="{base}/about/"
+                    href="/about/"
                 >
                     <span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
@@ -145,7 +144,7 @@
             </li>
             <li class="">
                 <a
-                    href="{base}/portfolio/"
+                    href="/portfolio/"
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                 >
                     <span
@@ -157,7 +156,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="{base}/"
+                    href="/"
                     ><span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
                         >home</span
@@ -166,7 +165,7 @@
             </li>
             <li>
                 <a
-                    href="{base}/commissions/"
+                    href="/commissions/"
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
                 >
                     <span
@@ -178,7 +177,7 @@
             <li>
                 <a
                     class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="{base}/sky-pillar/"
+                    href="/sky-pillar/"
                 >
                     <span
                         class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"

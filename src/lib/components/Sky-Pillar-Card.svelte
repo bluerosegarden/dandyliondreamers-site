@@ -1,5 +1,4 @@
 <script>
-    import { base } from "$app/paths";
     import { Lightbox } from "svelte-lightbox";
     import SvelteMarkdown from "svelte-markdown";
     export let set;
@@ -10,7 +9,7 @@
 >
     <h2 class="w-fit text-center">{set.title}</h2>
     <Lightbox>
-        <img class="w-60" src="{base}{set.img}" alt={set.title} />
+        <img class="w-60" src={set.img} alt={set.title} />
     </Lightbox>
     <div class="mx-1 list-disc w-fit text-md">
         <SvelteMarkdown source={set.desc} />
