@@ -87,6 +87,8 @@ collections:
         - {label: Email, name: email, widget: string}
         - {label: Embed Blurb, name: blurb, widget: string}
         - {label: "Embed Image", name: "embedImg", widget: "image", choose_url: true}
+        - {label: "Site Title", name: title, widget: string}
+        - {label: "Site URL", name: url, widget: string}
         - label: Links
           name: links
           widget: list
