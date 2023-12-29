@@ -24,8 +24,13 @@ main ul {
       font-family: var(--f);
 }
 
+#side-menu ~ #mobile-menu>div{
+display: none;
+}
+#side-menu:checked ~ #mobile-menu>div{
+    display:block !important
 
-
+}
 
 main{
     display: flex;
@@ -81,53 +86,4 @@ article p a, footer a{
 article p a:hover, article h2 a:hover{
     border-bottom: 6px var(--hex-primary) solid;
 }
-
-
-.os-theme-round-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle::before{
-    content: url('https://api.iconify.design/ph/star-four-fill.svg?color=hsl(282%2C%2018%25%2C%2065%25)');
-    transform: translate(-13%, -13%) scale(1.3);
-    background: none;
-}
-
-.os-theme-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle,
-.os-theme-dark > .os-scrollbar:hover > .os-scrollbar-track > .os-scrollbar-handle,
-.os-theme-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle.active{
-    background: var(--pale-violet-darker);
-}
-
-
-.overflow{
-    border: 4px var(--pale-violet) solid;
-    border-radius: 20px;
-    height:10em;
-    width:100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    z-index: 0;
-}
-
-.scroll-section{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width:100%;
-}
-
-
-.overflow-x{
-    overflow: scroll;
-    overflow-x: visible;
-    overflow-y: visible;
-    width: 100%;
-}
-
-.highlight-empty{
-    padding: 0.3em;
-    border-radius: 10px;
-}
-
-.overflow .frame-hide{
-    display: none;
-}
-
 

@@ -5,7 +5,7 @@
     const sets = data.raySets;
 </script>
 
-<h1 class="text-6xl">{data.title}</h1>
+<h1 class="text-5xl sm:text-6xl text-center">{data.title}</h1>
 
 <section class="flex flex-row flex-wrap">
     {#each sets as set}
