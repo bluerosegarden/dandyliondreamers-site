@@ -2,10 +2,8 @@
     import PortfolioSet from "$lib/components/PortfolioSet.svelte";
 
     export let data;
-    const sets = data.data.portSets;
 </script>
 
-<h1 class="text-6xl">PAAAA</h1>
-{#each sets as set}
-    <PortfolioSet {set} />
-{/each}
+<h1 class="text-5xl sm:text-6xl text-center">{data.title}</h1>
+
+<h1 class="text-6xl">COMING SOON</h1>

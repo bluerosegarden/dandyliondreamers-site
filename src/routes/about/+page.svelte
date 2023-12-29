@@ -4,7 +4,7 @@
     const settings = data.settings;
 </script>
 
-<h1 class="text-6xl mb-20">{page_data.title}</h1>
+<h1 class="text-5xl sm:text-6xl text-center">{page_data.title}</h1>
 <div class="bg-ritual-primary/25 p-4 rounded-lg">
     <div class="text-xl font-bold text-center my-4 text-center">
         <a
