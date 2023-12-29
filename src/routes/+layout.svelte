@@ -5,7 +5,6 @@
     import "$lib/app.css";
     import { fade } from "svelte/transition";
     import Footer from "$lib/components/Footer.svelte";
-    import { base } from "$app/paths";
 </script>
 
 <head>
@@ -13,7 +12,7 @@
     <meta property="og:url" content={data.url} />
     <meta property="og:title" content={data.title} />
     <meta property="og:description" content={data.blurb} />
-    <meta property="og:image" content="{base}{data.embedImg}" />
+    <meta property="og:image" content={data.embedImg} />
 </head>
 
 <Header />
