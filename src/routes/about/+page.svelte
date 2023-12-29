@@ -57,7 +57,7 @@
             >
         {/each}
     </div>
-    <div class="mx-10">
+    <div class="mx-4">
         {page_data.body}
     </div>
 </div>
