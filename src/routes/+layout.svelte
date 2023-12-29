@@ -1,5 +1,5 @@
 <script lang="ts">
-    import data from "$lib/cms/pages/home.json";
+    import data from "$lib/cms/pages/main-settings.json";
     import Header from "$lib/components/Header.svelte";
     import "$lib/styles/web.css";
     import "$lib/app.css";
@@ -10,7 +10,7 @@
 
 <head>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://linkfork.co/" />
+    <meta property="og:url" content={data.url} />
     <meta property="og:title" content={data.title} />
     <meta property="og:description" content={data.blurb} />
     <meta property="og:image" content="{base}{data.embedImg}" />
