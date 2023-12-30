@@ -17,7 +17,7 @@
 
 <Header />
 <main
-    class="rounded text-lg mx-8 sm:mx-36 leading-normal"
+    class="rounded text-lg sm:mx-10 md:mx-36 leading-normal"
     in:fade={{ duration: 150, delay: 150 }}
     out:fade={{ duration: 150 }}
 >
