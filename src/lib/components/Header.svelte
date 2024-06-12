@@ -128,65 +128,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- <nav>
-        <ul class="flex-row align-center justify-around">
-            <li>
-                <a
-                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="/about/"
-                >
-                    <span
-                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
-                        >about</span
-                    >
-                </a>
-            </li>
-            <li class="">
-                <a
-                    href="/portfolio/"
-                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                >
-                    <span
-                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
-                        >portfolio</span
-                    >
-                </a>
-            </li>
-            <li>
-                <a
-                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="/"
-                    ><span
-                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
-                        >home</span
-                    >
-                </a>
-            </li>
-            <li>
-                <a
-                    href="/commissions/"
-                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                >
-                    <span
-                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
-                        >commissions</span
-                    >
-                </a>
-            </li>
-            <li>
-                <a
-                    class="group border-b-4 border-ritual-primary hover:border-b-ritual-accent"
-                    href="/sky-pillar/"
-                >
-                    <span
-                        class="hidden md:inline text-2xl text-center group-hover:text-ritual-accent"
-                        >sky pillar</span
-                    >
-                </a>
-            </li>
-        </ul>
-    </nav> -->
 </header>
 <div class="pb-28 sm:pb-0"></div>
 

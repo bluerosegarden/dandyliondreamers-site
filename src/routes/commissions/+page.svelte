@@ -13,7 +13,7 @@
 {#if data.mainImg}
     <img class="max-h-96" src={data.mainImg} alt="Commissions Hero" />
 {/if}
-<div class="2xl:w-4/12 pb-12">{data.body}</div>
+<p class="2xl:w-4/12 my-12 bg-ritual-primary/25 rounded p-4">{data.body}</p>
 
 <div class="flex xl:flex-row flex-col justify-center items-center">
     {#each featuredComms as comm}

@@ -5,7 +5,7 @@
 </script>
 
 <h1 class="text-5xl sm:text-6xl text-center">{page_data.title}</h1>
-<div class="bg-ritual-primary/25 p-4 rounded-lg xl:w-7/12">
+<div class="bg-ritual-primary/25 p-4 rounded-lg 2xl:w-5/12">
     <div class="flex flex-row justify-center my-4">
         {#each settings.links as link}
             <a
@@ -25,7 +25,7 @@
             </div>
         </a>
     </div>
-    <div class="mx-4 text-2xl">
+    <p class="mx-4">
         {page_data.body}
-    </div>
+    </p>
 </div>

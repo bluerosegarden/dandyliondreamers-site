@@ -22,7 +22,7 @@
 {/if}
 
 <div
-    class="p-8 bg-ritual-faded-primary flex flex-row flex-wrap w-11/12 rounded"
+    class="p-8 bg-ritual-primary/25 flex flex-row flex-wrap xl:w-6/12 w-11/12 rounded"
 >
     <div class="flex flex-row flex-wrap w-full justify-center">
         {#each images as image}

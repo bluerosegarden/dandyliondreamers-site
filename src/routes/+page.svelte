@@ -6,6 +6,6 @@
 <div>
     <img class="max-h-96" src={data.mainImg} />
 </div>
-<p class="bg-ritual-primary/25 p-4 rounded-lg">
+<p class="bg-ritual-primary/25 p-4 rounded-lg rounded 2xl:w-4/12">
     {data.body}
 </p>
