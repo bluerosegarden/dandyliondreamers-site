@@ -32,8 +32,17 @@ collections:
       format: json
       fields:
         - {label: Page Title, name: title, widget: string}
-        - {label: "Main Image", name: "mainImg", widget: "image", choose_url: true, required: false}
         - {label: Body, name: body, widget: markdown}
+        - {label: "Main Image", name: "mainImg", widget: "image", choose_url: true, required: false}
+        - label: Comms
+          name: comms
+          widget: list 
+          required: false
+          fields:
+          - {label: "Commission Image", name: "img", widget: "image", choose_url: true}
+          - {label: "Commission Title", name: "title", widget: "string", required: false}
+          - {label: "Commission Description", name: "desc", widget: "string", required: false}
+          - {label: "Featured Commission", name: "featured", widget: "boolean", required: false}
     - label: "Portfolio"
       name: "portfolio"
       file: "src/lib/cms/pages/portfolio.json"
@@ -83,8 +92,8 @@ collections:
       format: json
       fields:
         - {label: Email, name: email, widget: string}
-        - {label: Embed Blurb, name: blurb, widget: string}
-        - {label: "Embed Image", name: "embedImg", widget: "image", choose_url: true}
+        - {label: Embed Blurb, name: blurb, widget: string, required: false}
+        - {label: "Embed Image", name: "embedImg", widget: "image", choose_url: true, required: false}
         - {label: "Site Title", name: title, widget: string}
         - {label: "Site URL", name: url, widget: string}
         - label: Links
