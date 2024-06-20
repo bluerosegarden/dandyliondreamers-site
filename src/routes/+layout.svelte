@@ -14,6 +14,7 @@
     <meta property="og:title" content={site_data.title} />
     <meta property="og:description" content={site_data.blurb} />
     <meta property="og:image" content={site_data.embedImg} />
+    <title>{site_data.title}</title>
 </head>
 {#key data.pathname}
     <div in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
